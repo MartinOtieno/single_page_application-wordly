@@ -1,0 +1,83 @@
+/* add font type to my page */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+/* input field */
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: rgb(255, 47, 47);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #b35f00; /* adding a color when you hover on my button*/
+}
+
+#result {
+  margin-top: 25px;
+}
+
+.word {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.phonetic {
+  color: #666;
+  font-style: italic;
+}
+
+.definition {
+  margin-top: 10px;
+}
+
+.synonyms {
+  margin-top: 10px;
+  color: rgb(255, 47, 47);
+}
+/* styling the error to appear with a red color whenever the user commits any error */
+.error-message {
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+}
